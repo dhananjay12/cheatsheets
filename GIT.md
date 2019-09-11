@@ -2,10 +2,14 @@
 
 ### CLEAN
 
-- Git remove branches that are not on local:
+- Git remove branches that are not in remote:
 
 ```
 git checkout master
+git branch --merged master | grep -v '^[ *]*master$' | xargs git branch -d
+```
+or
+```
 git fetch -p && git branch -vv | awk '/: gone]/{print $1}' | xargs git branch -d
 ```
  
