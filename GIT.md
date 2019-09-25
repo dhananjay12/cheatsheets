@@ -2,13 +2,13 @@
 
 ### CLEAN
 
-- Git remove branches that are not in remote:
+* Git remove branches that are not in remote:
 
 ```
 git checkout master
 git branch --merged master | grep -v '^[ *]*master$' | xargs git branch -d
 ```
-or
+  or
 ```
 git fetch -p && git branch -vv | awk '/: gone]/{print $1}' | xargs git branch -d
 ```
@@ -27,4 +27,31 @@ git fetch -p && git branch -vv | awk '/: gone]/{print $1}' | xargs git branch -d
       ```
       git clean -xdf
       ```
- 
+
+### TAGS
+
+* Delete tag
+
+Delete local tag 'abcd'
+```
+git tag -d abcd
+``` 
+
+Delete remote tag 'abcd' 
+```
+git push origin :refs/tags/abcd
+```
+
+* Add tag
+```
+git tag mytag
+git push --tags
+```
+
+* Checkout on a Tag 
+```
+git fetch --tags
+
+git checkout tags/mytag
+```
+
