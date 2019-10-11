@@ -14,7 +14,7 @@ mvn*
 .attach_pid*
 
 ### IntelliJ IDEA ###
-.idea
+.idea/
 *.iws
 *.iml
 *.ipr
