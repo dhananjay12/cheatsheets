@@ -2,7 +2,9 @@
 
 | Keys      | Description |
 | :----:        |    :----:   |
-|  Cmd + k | Clear the terminal fully. (`clear` just brings the terminal down) | 
+|  Cmd + Shift + . | Show hidden files | 
+|  Cmd + k | Clear the terminal fully. (`clear` just brings the terminal down) |
+|  Cmd + ` | Switch between same windows | 
 |  Cmd + z | Revert Back | 
 |  Cmd + Shift + z  | Revert Back Forward | 
 
