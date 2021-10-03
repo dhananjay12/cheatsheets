@@ -6,6 +6,7 @@
 |  Cmd + ` | Switch between same windows | 
 |  Cmd + z | Revert Back | 
 |  Cmd + Shift + z  | Revert Back Forward |
+|  Cmd + Ctrl + F  | Full Screen or Revert full screen |
 
 ## Terminal
 
