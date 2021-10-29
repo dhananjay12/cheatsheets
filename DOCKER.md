@@ -40,3 +40,12 @@ Remove all images with a pattern:
 ```
 docker rmi -f $(docker images -a | grep "pattern" | awk '{print $3}')
 ```
+
+### Extract docker Images (useful if you cannot exec into it)
+
+```
+id=$(docker create image-name)
+docker cp $id:. - > local-tar-file
+docker rm -v $id
+```
+The dot in the `$id:.` tells that you want to extract from the root. Use any other path for something specific
