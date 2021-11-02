@@ -55,3 +55,9 @@ git fetch --tags
 git checkout tags/mytag
 ```
 
+### COMMITS
+* Commit on a previous date
+```
+git commit -am "readme" --date=yesterday
+git commit -am "readme" --date=format:relative:13.hours.ago
+```
