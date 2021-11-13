@@ -55,6 +55,11 @@ git fetch --tags
 git checkout tags/mytag
 ```
 
+* Create a branch out of tag
+```
+git checkout -b <branch-name> v1.0
+```
+
 ### COMMITS
 * Commit on a previous date
 ```
