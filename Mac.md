@@ -44,12 +44,5 @@ Now you can use these alias to change your java version.
 
 ### Debug
 
-| Keys      | Description |
-| :----:        |    :----:   | 
-| Option+F8  | Evaluate expression | 
-| Option + Ctrl + H  | See call hierarchy | 
-| Cmd + F  | Find | 
-| Cmd + R  | Replace | 
-| Cmd + Option + Left/Right  | Move back/front methods between diff files | 
-| Ctrl+Tab   | Switching between tabs | 
+https://marketplace.visualstudio.com/items?itemName=k--kato.intellij-idea-keybindings
 
