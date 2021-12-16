@@ -63,7 +63,7 @@ openssl base64 -in <infile> -out <outfile>
 ```
 or
 ```
-echo -n "bXlzZXh0" | base64 --decode
+echo -n "mycodedtext" | base64 --decode
 ```
 In the later case remove any trailing `%` sign
 
