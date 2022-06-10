@@ -66,3 +66,15 @@ git checkout -b <branch-name> v1.0
 git commit -am "readme" --date=yesterday
 git commit -am "readme" --date=format:relative:13.hours.ago
 ```
+
+### Cherry Pick
+If you want a commit something your branch from another commit (because you cannot merge another branch to yours. Also, doesnt matter when it was made, past/future wr.t your branch).
+
+To your branch run
+```
+git cherry-pick <commit-id>
+```
+If there are no conflicts it will merge it, else you have to resolve the conflicts. Also, note that it will do nothing if the commit is already in your branch, so double check which branch you are cherry picking to.
+
+
+
