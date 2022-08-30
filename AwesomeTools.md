@@ -29,7 +29,7 @@ colima delete # delete existing instance
 colima start
 ```
 
-Some tools reply of `DOCKER_HOST` env variable to work. Its better to have it in zshenv/zsherc or bash_profile
+Some tools reply of `DOCKER_HOST` env variable to work. Its better to have it in zshenv/zshrc or bash_profile
 
 ```
 echo 'export DOCKER_HOST=unix://$HOME/.colima/docker.sock' >> ~/.zshenv
@@ -63,7 +63,7 @@ A simple terminal UI for both docker and docker-compose - [Github](https://githu
 brew install lazydocker
 ```
 
-Call `lazydocker` in your terminal. You can have an alias in zshenv/zsherc or bash_profile
+Call `lazydocker` in your terminal. You can have an alias in zshenv/zshrc or bash_profile
 ```
 echo "alias lzd='lazydocker'" >> ~/.zshenv
 source ~/.zshenv
