@@ -69,4 +69,6 @@ echo "alias lzd='lazydocker'" >> ~/.zshenv
 source ~/.zshenv
 ```
 
+[Keybindings_en](https://github.com/jesseduffield/lazydocker/blob/master/docs/keybindings/Keybindings_en.md)
+
 Note - If you have colima as docker, you need to have a DOCKER_HOST env variable poiting to that.
