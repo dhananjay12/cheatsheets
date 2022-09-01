@@ -72,3 +72,26 @@ source ~/.zshenv
 [Keybindings_en](https://github.com/jesseduffield/lazydocker/blob/master/docs/keybindings/Keybindings_en.md)
 
 Note - If you have colima as docker, you need to have a DOCKER_HOST env variable poiting to that.
+
+# Json log Viewer
+
+View Json logs locally - [Github](https://github.com/gistia/json-log-viewer)
+
+```
+npm install --global json-log-viewer
+```
+
+Usage
+
+```
+jv application.log
+```
+Select the line to expand and see starcktrace if any
+
+`f` filter 
+
+`/` search and `n` search again
+
+`Esc` to go back
+
+`q` to quit
