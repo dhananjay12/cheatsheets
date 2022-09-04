@@ -95,3 +95,12 @@ Select the line to expand and see starcktrace if any
 `Esc` to go back
 
 `q` to quit
+
+Copying logs directly is not possible from the default UI. To do the same follow following steps
+
+* Press m to attach to container
+
+* Copy logs
+
+* Return to lazydocker by pressing ctrl-c
+
