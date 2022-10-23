@@ -41,6 +41,16 @@ Remove all images with a pattern:
 docker rmi -f $(docker images -a | grep "pattern" | awk '{print $3}')
 ```
 
+Check and remove unused network:
+```
+docker network ls
+docker network rm <id>
+```
+or remove all unused netowrk
+```
+docker network prune
+```
+
 ### Extract docker Images (useful if you cannot exec into it)
 
 ```
