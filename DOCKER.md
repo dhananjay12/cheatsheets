@@ -3,6 +3,11 @@
 ### Login
 
 ```
+docker login <docker-host defaults to dockerhub>
+```
+or
+
+```
 docker login -u <username> <docker-host defaults to dockerhub>
 ```
 or

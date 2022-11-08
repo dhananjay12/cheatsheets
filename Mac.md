@@ -14,6 +14,10 @@
 | :----:        |    :----:   |
 |  Cmd + k | Clear the terminal fully. (`clear` just brings the terminal down) |
 
+## Mac Kill port process
+sudo lsof -i :4200
+Kill -9 <>
+
 ### Terminal commands
 
 `history -c` Cleard the Current Session’s History
