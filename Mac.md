@@ -58,7 +58,7 @@ openssl base64 -d -in <infile> -out <outfile>
 ```
 or
 ```
-echo -n "mytext" | base64
+echo -n "mytext" | base64 --decode
 ```
 
 Conversely, to encode to Base64:
@@ -67,7 +67,7 @@ openssl base64 -in <infile> -out <outfile>
 ```
 or
 ```
-echo -n "mycodedtext" | base64 --decode
+echo -n "mycodedtext" | base64
 ```
 In the later case remove any trailing `%` sign
 
