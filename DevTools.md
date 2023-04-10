@@ -25,7 +25,7 @@ alias d-stop="colima stop"
 
 If you are upgrading or your setup is behaving weiredly, it is required to start afresh by deleting existing instance.
 ```
-colima delete # delete existing instance
+colima delete # delete existing instance (Delete ~/.colima if there are any issues)
 colima start
 ```
 
