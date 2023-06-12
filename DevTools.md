@@ -32,6 +32,7 @@ colima start
 Some tools reply of `DOCKER_HOST` env variable to work. Its better to have it in zshenv/zshrc or bash_profile
 
 ```
+echo 'export TESTCONTAINERS_RYUK_DISABLED=true' >> ~/.zshenv
 echo 'export DOCKER_HOST=unix://$HOME/.colima/docker.sock' >> ~/.zshenv
 source ~/.zshenv
 ```
