@@ -13,6 +13,7 @@
 | Keys      | Description |
 | :----:        |    :----:   |
 |  Cmd + k | Clear the terminal fully. (`clear` just brings the terminal down) |
+|  Cmd + i | Change terminal color |
 
 ## Mac Kill port process
 sudo lsof -i :4200
