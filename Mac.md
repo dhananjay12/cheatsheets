@@ -72,3 +72,8 @@ echo -n "mycodedtext" | base64
 ```
 In the later case remove any trailing `%` sign
 
+## Chrome 
+- chrome://flags
+Force Dark Mode for Web Contents
+Automatically render all web contents using a dark theme. – Mac, Windows, Linux, Android
+#enable-force-dark
